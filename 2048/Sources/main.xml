@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Game</string>
+	<key>language</key>
+	<string>Javascript</string>
+	<key>main</key>
+	<string>main.js</string>
+	<key>designWidth</key>
+	<string>720</string>
+	<key>designHeight</key>
+	<string>1280</string>
+	<key>designPolicy</key>
+	<string>NO_BORDER</string>
+	<key>viewWidth</key>
+	<string>360</string>
+	<key>viewHeight</key>
+	<string>640</string>
+	<key>debug</key>
+	<string>false</string>
+</dict>
+</plist>

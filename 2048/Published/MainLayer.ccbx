@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Document
+        jsControlled="true"
+        jsController="MainLayer"
+        resolution="default"
+        >
+
+    <Resolutions>
+        <Resolution centeredOrigin="false" ext="iphone" height="1280" width="720" name="default" scale="1"/>
+        <Resolution centeredOrigin="false" ext="iphone" height="720" width="1280" name="default1" scale="1"/>
+    </Resolutions>
+
+    <Animations>
+        <Animation autoPlay="true"
+                   id="0"
+                   name="Default Timeline"
+                   length="10"
+                   chainedId="0"
+                   offset="0.0"
+                   position="0.0"
+                   resolution="30"
+                   scale="128">
+            <CallbackChannel>
+            </CallbackChannel>
+            <SoundChannel>
+            </SoundChannel>
+        </Animation>
+
+    </Animations>
+    <Layer
+            positionX="0" positionY="0.0"
+            sizeType="Percent"
+            width="100" height="100"
+            anchorPointX="0.5" anchorPointY="0.5" ignoreAnchorPoint="true"
+            scaleX="1" scaleY="1"
+            >
+
+        <LayerColor positionType="LeftBottom" positionX="0" positionY="0" anchorPointX="0"
+                    anchorPointY="0" width="720" height="1280" color="#ffb9a29e"/><!--ffb9a29e-->
+        <LayerColor positionType="LeftBottom" positionX="0" positionY="1180" anchorPointX="0"
+                    anchorPointY="0" width="720" height="100" color="#ff393939" visible="false"/>
+        <Sprite positionType="LeftBottom" positionX="661.0" positionY="1232.3334" anchorPointX="0.5"
+                anchorPointY="0.5" src="res/main.plist/shuaxin.png" width="44.0" height="52.0" visible="false"/>
+        <LabelTTF positionType="LeftBottom" positionX="80.0" positionY="1229.0" anchorPointX="0.5"
+                  anchorPointY="0.5" color="#ffffffff" fontSize="35" text="返回" var="back" target="Doc"/>
+        <LabelTTF positionType="LeftBottom" positionX="369.0" positionY="1227.0" anchorPointX="0.5"
+                  anchorPointY="0.5" color="#ffffffff" fontSize="30" text="2048" fontName="Tahoma" var="title"
+                  target="Doc"/>
+        <Sprite positionType="LeftBottom" positionX="564.0" positionY="96.0" anchorPointX="0.5"
+                anchorPointY="0.5" src="res/main.plist/high_ccore.png" width="190.0" height="138.0" visible="false"/>
+        <Sprite positionType="LeftBottom" positionX="138.33333" positionY="98.33333" anchorPointX="0.5"
+                anchorPointY="0.5" src="res/main.plist/score.png" width="112.0" height="138.0" visible="false"/>
+        <Button positionType="LeftBottom" positionX="662.0" positionY="1230.0" anchorPointX="0.5"
+                anchorPointY="0.5" text="" fontName="Arabic Typesetting" normalColor="#ffffd2cc" fontSize="18"
+                normalImage="res/main.plist/shuaxin.png" target="Doc" actionUpInside="true" actionTarget="Doc"
+                action="onRefreshClicked" preferedWidth="44" preferedHeight="52"/>
+        <LabelTTF positionType="LeftBottom" positionX="361.75" positionY="1123.75" anchorPointX="0.5"
+                  anchorPointY="0.5" text="分数：0" fontSize="40" color="#ffffffff" var="scoreLabel" target="Doc"
+                  fontName="Arial Black"/>
+    </Layer>
+</Document>
