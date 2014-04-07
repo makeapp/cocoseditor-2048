@@ -4,48 +4,11 @@ cocoseditor-2048
 2048 demo made in JavaScript，base on Cocos2d-x and Cocos2d-html5，Develop by CocosEditor， Runs on Android, iOS，Html5 &amp; PC
 
 
-<p>
-		<strong>不同平台下的效果图：</strong>
-	</p>
-	<p>
-		<strong><br />
-		</strong>
-	</p>
-	<p>
-		<strong>windows</strong>
-	</p>
-	<p>
-		<strong><img src="http://img.blog.csdn.net/20140407131801625?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdG91Y2hzbm93/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" width="700" height="400" alt="" /><br />
-		</strong>
-	</p>
-	<p>
-		<br />
-		<br />
-		
-	</p>
-	<p>
-		<strong>html5网页</strong>
-	</p>
-	<p>
-		<strong><img src="http://img.blog.csdn.net/20140407131827031?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdG91Y2hzbm93/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" width="700" height="400" alt="" /><br />
-		</strong>
-	</p>
-	<p>
-		<strong><br />
-		</strong>
-	</p>
-	<p>
-		<strong>android平台（各种主题版本）</strong>
-	</p>
-	<p>
-		<strong><br />
-		</strong>
-	</p>
-	<p>
-		<img src="http://img.blog.csdn.net/20140407132401593?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdG91Y2hzbm93/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="" /><img src="http://img.blog.csdn.net/20140407132412375?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdG91Y2hzbm93/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="" /><img src="http://img.blog.csdn.net/20140407132420906?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdG91Y2hzbm93/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="" /><br />
-		
-	</p>
-	<p>
-		<img src="http://img.blog.csdn.net/20140407132434718?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdG91Y2hzbm93/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="" /><img src="http://img.blog.csdn.net/20140407132450046?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdG91Y2hzbm93/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="" /><img src="http://img.blog.csdn.net/20140407132534984?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdG91Y2hzbm93/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="" /><br />
-		
-	</p>
+
+<a href="http://blog.makeapp.co/?attachment_id=513" rel="attachment wp-att-513"><img class="alignnone size-full wp-image-513" alt="QQ截图20140407131729" src="http://blog.makeapp.co/wp-content/uploads/2014/04/QQ截图20140407131729.png" width="700" height="400" /></a>
+
+<a href="http://blog.makeapp.co/?attachment_id=514" rel="attachment wp-att-514"><img class="alignnone size-full wp-image-514" alt="QQ截图20140407131818" src="http://blog.makeapp.co/wp-content/uploads/2014/04/QQ截图20140407131818.png" width="700" height="400" /></a>
+
+&nbsp;
+
+<a href="http://blog.makeapp.co/?attachment_id=515" rel="attachment wp-att-515"><img class="alignnone size-full wp-image-515" alt="豌豆荚截图20140407132338" src="http://blog.makeapp.co/wp-content/uploads/2014/04/豌豆荚截图20140407132338.png" width="224" height="442" /></a> <a href="http://blog.makeapp.co/?attachment_id=516" rel="attachment wp-att-516"><img class="alignnone size-full wp-image-516" alt="豌豆荚截图20140407132416" src="http://blog.makeapp.co/wp-content/uploads/2014/04/豌豆荚截图20140407132416.png" width="224" height="442" /></a> <a href="http://blog.makeapp.co/?attachment_id=517" rel="attachment wp-att-517"><img class="alignnone size-full wp-image-517" alt="豌豆荚截图20140407132448" src="http://blog.makeapp.co/wp-content/uploads/2014/04/豌豆荚截图20140407132448.png" width="224" height="442" /><a href="http://blog.makeapp.co/?attachment_id=518" rel="attachment wp-att-518"><img class="alignnone size-full wp-image-518" alt="豌豆荚截图20140407132706" src="http://blog.makeapp.co/wp-content/uploads/2014/04/豌豆荚截图20140407132706.png" width="224" height="442" /></a></a>
