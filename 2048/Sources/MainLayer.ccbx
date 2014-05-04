@@ -37,7 +37,8 @@
             >
 
         <LayerColor positionType="LeftBottom" positionX="0" positionY="0" anchorPointX="0"
-                    anchorPointY="0" width="720" height="1280" color="#ffb9a29e"/><!--ffb9a29e-->
+                    anchorPointY="0" width="720" height="1280" color="#ffb9a29e"/>
+        <!--ffb9a29e-->
         <LayerColor positionType="LeftBottom" positionX="0" positionY="1180" anchorPointX="0"
                     anchorPointY="0" width="720" height="100" color="#ff393939" visible="false"/>
         <Sprite positionType="LeftBottom" positionX="661.0" positionY="1232.3334" anchorPointX="0.5"
@@ -46,7 +47,7 @@
                   anchorPointY="0.5" color="#ffffffff" fontSize="35" text="返回" var="back" target="Doc"/>
         <LabelTTF positionType="LeftBottom" positionX="369.0" positionY="1227.0" anchorPointX="0.5"
                   anchorPointY="0.5" color="#ffffffff" fontSize="30" text="2048" fontName="Tahoma" var="title"
-                  target="Doc"/>
+                  target="Doc" scaleX="1" hAlign="Left" vAlign="Top"/>
         <Sprite positionType="LeftBottom" positionX="564.0" positionY="96.0" anchorPointX="0.5"
                 anchorPointY="0.5" src="res/main.plist/high_ccore.png" width="190.0" height="138.0" visible="false"/>
         <Sprite positionType="LeftBottom" positionX="138.33333" positionY="98.33333" anchorPointX="0.5"

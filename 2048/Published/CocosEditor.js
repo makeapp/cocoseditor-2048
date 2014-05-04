@@ -18,8 +18,8 @@
  * http://www.cocos2d-x.com/ (cocos官方)
  * https://github.com/makeapp      （github）
  * http://blog.csdn.net/touchsnow (csdn博客)
- * http://blog.makeapp.co/ （官方博客）
- * http://www.cocoseditor.com/ （建设中官网）
+ * http://blog.makeapp.co/      （官方博客）
+ * http://www.cocoseditor.com/   （建设中官网）
  *
  * @Contact
  * 邮箱：zuowen@makeapp.co
@@ -222,7 +222,7 @@ String.prototype.isValid = function () {
     else {
         return true;
     }
-}
+};
 
 Array.prototype.contains = function (value) {
     for (var i = 0; i < this.length; i++) {
