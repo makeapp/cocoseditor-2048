@@ -1,0 +1,9 @@
+<component name="CopyrightManager">
+  <copyright>
+    <option name="notice" value="/**&#10; * @GameName :&#10; * &#10; *&#10; * @DevelopTool:&#10; * Cocos2d-x Editor (CocosEditor)&#10; *&#10; * @time&#10; * &#10; *&#10; * @Licensed:&#10; * This showcase is licensed under GPL.&#10; *&#10; * @Authors:&#10; * Programmer: touchSnow&#10; *&#10; * @Links:&#10; * http://www.cocos2d-x.com/ (cocos官方)&#10; * https://github.com/makeapp      （github）&#10; * http://blog.csdn.net/touchsnow (csdn博客)&#10; * http://blog.makeapp.co/ （官方博客）&#10; * http://www.cocoseditor.com/ （建设中官网）&#10; *&#10; * @Contact&#10; * 邮箱：zuowen@makeapp.co&#10; * qq群：232361142&#10; *&#10; */" />
+    <option name="keyword" value="Copyright" />
+    <option name="allowReplaceKeyword" value="" />
+    <option name="myName" value="CocosEditor" />
+    <option name="myLocal" value="true" />
+  </copyright>
+</component>
