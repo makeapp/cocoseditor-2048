@@ -63,6 +63,7 @@ LevelLayer.prototype.onDidLoadFromCCB = function () {
 
 LevelLayer.prototype.onEnter = function () {
     cc.SpriteFrameCache.getInstance().addSpriteFrames("res/main.plist");
+
     this.initX = 9;
     this.initY = 850;
     this.cellSize = 162;
