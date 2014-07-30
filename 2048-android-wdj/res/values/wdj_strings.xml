@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="download_count">%1$s人安装</string>
+    <string name="no_result_text">正在为您加载...</string>
+
+    <string name="ads_next_text">换一个</string>
+    <string name="ads_install_text">安装</string>
+    <string name="ads_install_at_once_text">立即安装</string>
+    <string name="netop_network_error">网络无法访问，请您检查手机的网络设置。</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/ows_image_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp" />
+
+     <ProgressBar
+        android:id="@+id/ows_pb_notification"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="180dip"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+    
+    <TextView
+        android:id="@+id/ows_tv_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/ows_pb_notification"
+        android:gravity="center_horizontal|center_vertical"
+        android:textColor="#ffffff"
+        android:textSize="18px" />
+
+   
+
+</RelativeLayout>

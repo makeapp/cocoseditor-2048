@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:descendantFocusability="blocksDescendants"
+                android:paddingBottom="10dip"
+        android:background="@drawable/wdj_ads_card_background_normal">
+
+    <com.wandoujia.ads.sdk.volley.toolbox.NetworkImageView
+            android:id="@+id/icon"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="7dip"
+            android:layout_marginBottom="6dip"
+            android:scaleType="centerCrop"/>
+
+    <Button
+            android:id="@+id/action_button"
+            android:layout_width="60dip"
+            android:layout_height="30dip"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="18dip"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:background="@drawable/wdj_ads_action_button_background"
+            android:gravity="center"
+            android:textSize="14dip"
+            android:textColor="@android:color/white"/>
+
+    <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/icon"
+            android:layout_toLeftOf="@id/action_button"
+            android:layout_marginTop="12dip"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textSize="20dip"
+            android:textColor="#333333"/>
+
+    <TextView
+            android:id="@+id/sub_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_toRightOf="@id/icon"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="4dip"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textSize="13dip"
+            android:textColor="#aaaaaa"/>
+
+    <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/icon"
+            android:layout_alignLeft="@id/icon"
+            android:layout_marginRight="15dip"
+            android:textColor="#777777"
+            android:textSize="13dip"
+            android:lineSpacingExtra="3dip"
+            android:maxLines="2"
+            android:ellipsize="end"/>
+
+    <TextView
+            android:id="@+id/tag"
+            android:layout_width="60dip"
+            android:layout_height="16dip"
+            android:layout_alignBottom="@id/icon"
+            android:layout_alignParentRight="true"
+            android:textSize="11dip"
+            android:textColor="#aaaaaa"
+            android:gravity="center"/>
+
+    <ImageView
+            android:id="@+id/badge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+    <TextView
+            android:id="@+id/download_status"
+            android:layout_alignLeft="@id/sub_title"
+            android:layout_alignBottom="@id/sub_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textSize="13dip"
+            android:textColor="#aaaaaa"/>
+
+    <TextView
+            android:id="@+id/download_speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/download_status"
+            android:layout_below="@id/title"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textSize="13dip"/>
+
+    <!--<TextView-->
+    <!--android:id="@+id/download_size"-->
+    <!--style="@style/card_sub_title"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignBottom="@id/download_speed"-->
+    <!--android:layout_toRightOf="@id/download_speed"-->
+    <!--android:layout_marginLeft="@dimen/small_margin"/>-->
+
+    <ProgressBar
+            android:id="@+id/download_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="5dip"
+            android:layout_alignLeft="@id/download_speed"
+            android:layout_toLeftOf="@id/action_button"
+            android:layout_marginTop="3dip"
+            android:layout_below="@id/download_speed"
+            android:progressDrawable="@drawable/wdj_ads_progress_bar_background"
+            android:indeterminateOnly="false"
+            android:max="100"/>
+</RelativeLayout>

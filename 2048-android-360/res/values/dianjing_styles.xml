@@ -1,0 +1,29 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    
+    
+     
+     <!-- parent="@android:style/Theme.Dialog" -->
+    
+    <style name="dianjing_ad_theme" >
+         <item name="android:windowFrame">@null</item>
+         <item name="android:windowIsFloating">false</item>
+         <item name="android:windowIsTranslucent">false</item>
+         <item name="android:windowNoTitle">true</item>
+         <item name="android:windowBackground">@drawable/dianjing_fillbox</item>
+         <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    
+    
+    <style name="dianjing_ad_theme2" >
+         <item name="android:windowFrame">@null</item>
+         <item name="android:windowIsFloating">true</item>
+         <item name="android:windowIsTranslucent">false</item>
+         <item name="android:windowNoTitle">true</item>
+         <item name="android:windowBackground">@drawable/dianjing_fillbox</item>
+         <item name="android:backgroundDimEnabled">true</item>
+    </style>
+   
+    
+</resources>

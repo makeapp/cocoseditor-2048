@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="wandou_ads_green_normal">#FF3baa24</color>
+    <color name="wandou_ads_green_pressed">#278918</color>
+    <color name="wandou_ads_green_disabled">#98cc8e</color>
+
+    <color name="wandou_ads_grey_normal">#eeeeee</color>
+    <color name="wandou_ads_grey_pressed">#e8e8e8</color>
+
+    <color name="wandou_font_color_black">#222222</color>
+    <color name="wandou_font_color_white">#FFFFFF</color>
+
+    <color name="background_tab_pressed">#6633B5E5</color>
+
+    <color name="wandou_grey">#ebebeb</color>
+    <color name="wandou_white">#f7f7f7</color>
+</resources>

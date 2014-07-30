@@ -290,3 +290,37 @@ cc.Button.standardButtonWithTitle = function (normal, select, title) {
     button.setTitleColorForState(cc.WHITE, cc.CONTROL_STATE_NORMAL);
     return button;
 }
+
+
+function getTouchDirection(p1, p2) {
+    var p2X = p2.x;
+    var p2Y = p2.y;
+    var p1X = p1.x;
+    var p1Y = p1.y;
+    var rateXY = 0;
+    if (p2X == p1X) {
+        rateXY = 1000;
+    } else {
+        rateXY = (p2Y - p1Y) / (p2X - p1X);
+    }
+    cc.log("rateXY==" + rateXY + "," + (rateXY >= -1 && rateXY <= 1));
+    var dis = 15;
+
+    if (rateXY >= -1 && rateXY <= 1) {
+        if ((p2X - p1X) < -dis) { //left
+            return 1;
+        } else if ((p2X - p1X) > dis) { //right
+            return 2;
+        } else {
+            return 0;
+        }
+    } else {
+        if ((p2Y - p1Y) < -dis) { //down
+            return 4;
+        } else if ((p2Y - p1Y) > dis) { //up
+            return 3;
+        } else {
+            return 0;
+        }
+    }
+}

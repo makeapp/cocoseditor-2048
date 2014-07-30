@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+     <string name="ows_lastupdate">最后更新:</string>
+    <string name="ows_tv_no_info">暂无内容</string>
+    <string name="ows_times">倍</string>
+    <string name="ows_dialog_title">提示</string>
+    <string name="ows_dialog_msg">正在加载,请等待...</string>
+    <string name="ows_dialog_sure">确定</string>
+    <string name="ows_notification_tickertext">360点睛积分墙下载...</string>
+    <string name="ows_notification_download_text">下载:</string>
+    <string name="ows_notification_progress_text">进度:</string>
+    <string name="ows_notification_download_done">下载完毕</string>
+    <string name="ows_pull_listview_tipstext">松开后立即刷新...</string>
+    <string name="ows_pull_listview_tips_update">下拉更新...</string>
+    <string name="ows_pull_listview_tips_load">努力加载中...</string>
+    <string name="ows_pull_listview_tips_lasttime">最近更新:</string>
+    <string name="ows_net_info_exeception">信息返回异常</string>
+    <string name="ows_net_info_request_fail">请求失败</string>
+    <string name="ows_net_info_wall_close">积分墙已经关闭</string>
+    <string name="ows_net_file_not_find">资源错误下载失败</string>
+    <string name="ows_point_five">万</string>
+    <string name="ows_point_four">千</string>
+    <string name="ows_url_error">下载地址错误</string>
+    <string name="ows_sdcard_error">SD卡不存在</string>
+
+</resources>

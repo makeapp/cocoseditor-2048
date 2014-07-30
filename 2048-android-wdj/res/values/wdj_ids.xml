@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="tag_key_ads_item_position"
+          type="id"/>
+    <item name="tag_key_ads_item_downloading"
+          type="id"/>
+</resources>

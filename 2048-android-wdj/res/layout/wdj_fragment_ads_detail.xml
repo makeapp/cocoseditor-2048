@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:id="@+id/app_detail_action_area"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:weightSum="6"
+        android:background="@drawable/bg_explore_bottombar_shadow">
+
+        <TextView
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+        <Button
+                android:id="@+id/app_detail_install_button"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:layout_margin="6dip"
+                android:text="安装"
+                android:textSize="16dip"
+                android:textColor="@android:color/white"
+                android:background="@drawable/wdj_ads_detail_install_button_background"/>
+
+    <TextView
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+</LinearLayout>
+
+    <ScrollView android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/app_detail_action_area"
+                android:layout_alignParentTop="true">
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical">
+
+            <RelativeLayout android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                <com.wandoujia.ads.sdk.volley.toolbox.NetworkImageView
+                        android:id="@+id/app_detail_icon"
+                        android:layout_width="80dip"
+                        android:layout_height="80dip"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dip"
+                        android:layout_marginRight="15dip"
+                        android:scaleType="fitXY"
+                        android:layout_marginTop="12dip"
+                        android:layout_marginBottom="12dip"/>
+
+                <RelativeLayout
+                        android:id="@+id/app_title_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/app_detail_icon"
+                        android:layout_centerVertical="true">
+
+                    <TextView
+                            android:id="@+id/app_detail_app_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentLeft="true"
+                            android:ellipsize="marquee"
+                            android:singleLine="true"
+                            android:textSize="18dip"
+                            android:textColor="#333333"/>
+
+                    <TextView
+                            android:id="@+id/app_detail_app_sub_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/app_detail_app_title"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginTop="4dip"
+                            android:ellipsize="marquee"
+                            android:singleLine="true"
+                            android:textSize="12dip"
+                            android:textColor="#333333"/>
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!-- image scroller view -->
+
+            <HorizontalScrollView
+                    android:id="@+id/scroll_gallery"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white"
+                    android:fadingEdge="none"
+                    android:fillViewport="true"
+                    android:isScrollContainer="false"
+                    android:scrollbars="none">
+
+                <!-- 170dip -->
+
+                <LinearLayout
+                        android:id="@+id/app_detail_image_gallery"
+                        android:layout_width="wrap_content"
+                        android:layout_height="170dip"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"/>
+
+            </HorizontalScrollView>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dip"
+                    android:paddingLeft="15dip"
+                    android:gravity="center_vertical|left"
+                    android:textColor="#aaaaaa"
+                    android:textSize="14dip"
+                    android:text="应用描述"
+                    android:background="#f4f4f4"/>
+
+            <TextView
+                    android:id="@+id/app_detail_description_area"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/detail_description"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

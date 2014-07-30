@@ -36,7 +36,7 @@
             scaleX="1" scaleY="1"
             touchEnabled="true" positionType="LeftBottom">
         <LayerColor positionType="LeftBottom" positionX="0" positionY="0" anchorPointX="0"
-                    anchorPointY="0" width="720" height="1280" color="#ffb9a29e"/>
+                    anchorPointY="0" width="720" height="1280" color="#ffbbada0"/>
         <LabelTTF positionType="LeftBottom" positionX="360" positionY="1204.5" anchorPointX="0.5"
                   anchorPointY="0.5" color="#ffffffff" fontSize="40" text="选择2048版本"/>
     </Layer>

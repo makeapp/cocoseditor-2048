@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="80dip"
+                android:descendantFocusability="blocksDescendants"
+                android:background="@drawable/wdj_ad_card_background_flat">
+
+    <com.wandoujia.ads.sdk.volley.toolbox.NetworkImageView
+            android:id="@+id/banner_ad_icon"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:scaleType="centerCrop"/>
+
+    <Button
+            android:id="@+id/banner_ad_action_button"
+            android:layout_width="60dip"
+            android:layout_height="30dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dip"
+            android:background="@drawable/wdj_ads_action_button_background"
+            android:gravity="center"
+            android:textSize="14dip"
+            android:textColor="@android:color/white"/>
+
+    <TextView
+            android:id="@+id/banner_ad_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/banner_ad_icon"
+            android:layout_toRightOf="@id/banner_ad_icon"
+            android:layout_toLeftOf="@id/banner_ad_action_button"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textSize="20dip"
+            android:textColor="#333333"/>
+
+    <TextView
+            android:id="@+id/banner_ad_sub_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/banner_ad_title"
+            android:layout_toRightOf="@id/banner_ad_icon"
+            android:layout_alignBottom="@id/banner_ad_icon"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textSize="13dip"
+            android:textColor="#aaaaaa"/>
+</RelativeLayout>

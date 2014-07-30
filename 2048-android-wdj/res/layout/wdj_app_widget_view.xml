@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.wandoujia.ads.sdk.widget.AppWidget xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/wdj_ads_widget_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+        android:background="@drawable/wdj_ads_card_background_normal">
+
+    <RelativeLayout
+            android:id="@+id/wdj_app_widget_content_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dip"
+            android:visibility="gone">
+
+        <com.wandoujia.ads.sdk.volley.toolbox.NetworkImageView
+                android:id="@+id/app_widget_icon"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip"
+                android:layout_marginTop="20dip"
+                android:layout_marginBottom="6dip"
+                android:scaleType="centerCrop"/>
+
+        <TextView
+                android:id="@+id/app_widget_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/app_widget_icon"
+                android:layout_marginTop="12dip"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:textSize="20dip"
+                android:textColor="#333333"/>
+
+        <TextView
+                android:id="@+id/app_widget_sub_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/app_widget_title"
+                android:layout_alignLeft="@id/app_widget_title"
+                android:layout_marginTop="4dip"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:textSize="13dip"
+                android:textColor="#aaaaaa"/>
+
+        <TextView
+                android:id="@+id/app_widget_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/app_widget_sub_title"
+                android:layout_alignLeft="@id/app_widget_title"
+                android:layout_marginRight="15dip"
+                android:maxLines="3"
+                android:textColor="#777777"
+                android:textSize="13dip"
+                android:lineSpacingExtra="3dip"
+                android:ellipsize="end"/>
+
+        <LinearLayout
+                android:layout_width="170dip"
+                android:layout_height="36dip"
+                android:layout_alignLeft="@id/app_widget_title"
+                android:layout_below="@id/app_widget_description"
+                android:layout_marginTop="10dip"
+                android:orientation="horizontal">
+
+            <Button
+                    android:id="@+id/app_widget_next_button"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/wdj_phoenix_themed_button_background_grey"
+                    android:textColor="@color/wandou_font_color_black"
+                    android:textSize="16dip"
+                    android:text="@string/ads_next_text"/>
+
+            <Button
+                    android:id="@+id/app_widget_install_button"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textColor="@color/wandou_font_color_white"
+                    android:textSize="16dip"
+                    android:text="@string/ads_install_at_once_text"
+                    android:background="@drawable/wdj_phoenix_themed_button_background_default"/>
+        </LinearLayout>
+
+        <ImageButton
+                android:id="@+id/app_widget_close_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="2dip"
+                android:layout_marginRight="2dip"
+                android:background="@drawable/wdj_ads_close_widget_button_background"/>
+    </RelativeLayout>
+
+    <ProgressBar
+            android:id="@+id/app_widget_empty_view"
+            android:layout_gravity="center"
+            style="@style/GenericProgressIndicator"/>
+</com.wandoujia.ads.sdk.widget.AppWidget>

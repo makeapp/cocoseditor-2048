@@ -111,6 +111,10 @@ MainLayer.prototype.onEnter = function () {
 MainLayer.prototype.newNumber = function (i, j, num) {
     var cell = cc.MySprite.create(this.rootNode, "5.png", this.getPosition(i, j), 1);
     var cellLabel = cc.MySprite.createLabel(cell, "");
+    if (num < 3) {
+//        cellLabel.setColor(cc.c3b(255, 255, 255));
+    }
+
 
     if (num > 0) {
         cell.setColor(COLOR[num]);
@@ -118,6 +122,7 @@ MainLayer.prototype.newNumber = function (i, j, num) {
         cellLabel.setString(this.indexVersion.array[num]);
         cellLabel.setFontSize(this.indexVersion.labelFontSize);
     } else {
+        cell.setColor(COLOR[num]);
         cellLabel.setVisible(false);
     }
     cell.data = {col: i, row: j, numberLabel: cellLabel, number: num};
@@ -383,23 +388,38 @@ MainLayer.prototype.onTouchesMoved = function (touches, event) {
 
 MainLayer.prototype.onTouchesEnded = function (touches, event) {
     this.pEnded = touches[0].getLocation();
+
+//    if (this.pBegan) {
+//        if (this.pEnded.x - this.pBegan.x > 20) {
+//            this.rightCombineNumber();
+//        }
+//
+//        else if (this.pEnded.x - this.pBegan.x < -20) {
+//            this.leftCombineNumber();
+//        }
+//
+//        else if (this.pEnded.y - this.pBegan.y > 20) {
+//            this.upCombineNumber();
+//        }
+//
+//        else if (this.pEnded.y - this.pBegan.y < -20) {
+//            this.downCombineNumber();
+//        }
+//    }
+
     if (this.pBegan) {
-        if (this.pEnded.x - this.pBegan.x > 50) {
-            this.rightCombineNumber();
-        }
-
-        else if (this.pEnded.x - this.pBegan.x < -50) {
+        var direction = getTouchDirection(this.pBegan, this.pEnded);
+        if (direction == 1) {
             this.leftCombineNumber();
-        }
-
-        else if (this.pEnded.y - this.pBegan.y > 50) {
+        } else if (direction == 2) {
+            this.rightCombineNumber();
+        } else if (direction == 3) {
             this.upCombineNumber();
-        }
-
-        else if (this.pEnded.y - this.pBegan.y < -50) {
+        } else if (direction == 4) {
             this.downCombineNumber();
         }
     }
+
 };
 
 

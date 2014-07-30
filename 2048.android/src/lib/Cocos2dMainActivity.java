@@ -12,7 +12,6 @@ public class Cocos2dMainActivity extends Cocos2dxActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
     }
 
     public Cocos2dxGLSurfaceView onCreateView() {

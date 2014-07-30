@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+    <com.wandoujia.ads.sdk.widget.tabs.PagerSlidingTabStrip
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="48dip"
+            android:layout_alignParentTop="true"
+            android:background="#f4f4f4"
+            android:textSize="16dip"
+            app:pstsTabTextColor="@color/color_tab_text_default"
+            app:pstsShouldExpand="true"
+            app:pstsDividerPadding="0dip"
+            app:pstsDividerColor="#00000000"
+            app:pstsIndicatorColor="@color/wandou_ads_green_normal"
+            app:pstsTabPaddingLeftRight="15dip"
+            app:pstsUnderlineColor="@color/wandou_ads_green_normal"
+            app:pstsIndicatorHeight="4dip"
+            app:pstsUnderlineHeight="0dip" />
+
+    <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tabs" />
+
+</RelativeLayout>

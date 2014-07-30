@@ -75,7 +75,7 @@ LevelLayer.prototype.onEnter = function () {
         for (var i = 0; i < 4; i++) {
             var px = this.initX + this.cellSize / 2 + i * (this.cellSize + this.cellSpace);
             var py = this.initY + this.cellSize / 2 - j * (this.cellSize + this.cellSpace);
-            var cell = cc.MySprite.create(this.rootNode, "6.png", cc.p(px, py), 1);
+            var cell = cc.MySprite.create(this.rootNode, "5.png", cc.p(px, py), 1);
             var num = 4 * j + i;
             if (num < VERSIONS.length) {
                 var cellLabel = cc.MySprite.createLabel(cell, VERSIONS[num].name);

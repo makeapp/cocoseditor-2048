@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:gravity="center"
+    android:minHeight="48dip"
+    android:padding="6dip" >
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="24dip"
+        android:layout_height="24dip"
+        android:layout_gravity="center"
+        android:visibility="visible" >
+    </ProgressBar>
+
+</LinearLayout>

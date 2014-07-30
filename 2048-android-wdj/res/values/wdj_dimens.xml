@@ -1,0 +1,11 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="screenshot_width">108dip</dimen>
+    <dimen name="screenshot_height">170dip</dimen>
+
+    <dimen name="wallpaper_divider_width">1dp</dimen>
+
+    </resources>

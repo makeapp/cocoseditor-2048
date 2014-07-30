@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Baidu_MobAds_SDK">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/Baidu_MobAds_SDK.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

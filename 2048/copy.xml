@@ -1,0 +1,15 @@
+<project name="Javascript compress project"
+         basedir="." default="copy">
+    <target name="copy">
+        <copy todir="D:\work\cocoseditor\cocoseditor-2048\2048.android\assets">
+            <fileset dir="${basedir}/Published/">
+                <include name="**"/>
+                <exclude name="*.ccbx"/>
+                <!--<exclude name="*.js"/>-->
+                <exclude name="main.xml"/>
+            </fileset>
+        </copy>
+    </target>
+</project>
+
+

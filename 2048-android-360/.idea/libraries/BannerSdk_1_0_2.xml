@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="BannerSdk_1.0.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/BannerSdk_1.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

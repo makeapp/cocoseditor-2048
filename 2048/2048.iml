@@ -9,6 +9,7 @@
     <orderEntry type="jdk" jdkName="1.7-64" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="cocos2d-html5" level="application" />
+    <orderEntry type="library" name="cocos2d-js-2.x" level="application" />
   </component>
 </module>
 

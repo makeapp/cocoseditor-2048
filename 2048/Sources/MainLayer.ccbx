@@ -37,7 +37,7 @@
             >
 
         <LayerColor positionType="LeftBottom" positionX="0" positionY="0" anchorPointX="0"
-                    anchorPointY="0" width="720" height="1280" color="#ffb9a29e"/>
+                    anchorPointY="0" width="720" height="1280" color="#ffbbada0"/>
         <!--ffb9a29e-->
         <LayerColor positionType="LeftBottom" positionX="0" positionY="1180" anchorPointX="0"
                     anchorPointY="0" width="720" height="100" color="#ff393939" visible="false"/>
